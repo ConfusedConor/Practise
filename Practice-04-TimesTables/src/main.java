@@ -23,12 +23,8 @@ public class main {
 			//Second loop the second number being multiplied
 			for(num2=1; num2<=12; num2++) {
 				answer = num1 * num2;
-				System.out.println(num1+" x "+num2+" = "+answer);
-				
+				System.out.println(num1+" x "+num2+" = "+answer);	
 			}
-			
-			
-;
 		}
 	}
 
