@@ -12,10 +12,14 @@ public class main {
 		System.out.println("Welcome to higher or lower, make your first guess!");
 		System.out.println("Hint: The number is between 1-100 ");
 		do {
+			System.out.println("You've Tried "+clicker+" times.");
 			guess = sc.nextInt();
 			if (guess==secretNumber) {finished=true;}
-			if (guess < secretNumber) {System.out.println("Too low, try again");}
-			if (guess > secretNumber) {System.out.println("Too high, try again");}
+			if (guess < secretNumber) {System.out.println("Too low, try again");
+			clicker++;}
+			if (guess > secretNumber) {System.out.println("Too high, try again");
+			clicker++;
+			}
 			
 			
 		}
